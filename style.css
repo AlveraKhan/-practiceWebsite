@@ -1,0 +1,108 @@
+.nav-link{
+    color: white !important;
+}
+.navbar{
+    background-color:teal !important;
+}
+
+.fa-search{
+    float: right !important;
+}
+.fa-user, .fa-shopping-cart{
+    font-size:25px !important;
+}
+.fa-truck, .fa-headphones, .fa-thumbs-up{
+    font-size: 45px !important;
+    margin-right: 20px;
+    color: teal;
+}
+h3{
+color: teal !important;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    width: 300px;
+    height:100px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 280px;
+    height: 380px !important;
+    margin-top: 30px;
+}
+.newArrivals{
+margin-top: 50px;
+}
+.card-img-top{
+width:278px;
+height:230px;
+}
+.btn-primary{
+ width: 100%;
+ color: teal;
+ color: white;
+ background-color: teal;
+}
+.headings >h1{
+text-shadow: 4px 4px 4px black !important;
+}
+.headings{
+color: teal;
+font-weight: bold;
+text-align: center;
+margin: 30px;
+}
+.card-text,.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    background-color: teal;
+    height: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.example > input{
+    height: 30px;
+    margin-top: 5px !important;
+}
+.fa-search{
+    height: 50px !important;
+    margin-top: 5px;   
+}
+button:hover{
+    background-color: skyblue;
+}
+.navbar-brand>img{
+    width: 300px;
+    height:50px;
+}
+button{
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+@media screen and (max-width: 600px) {
+    .card1, .card2, .card3{
+        width: 100%;
+    }   
+}
+
+  
